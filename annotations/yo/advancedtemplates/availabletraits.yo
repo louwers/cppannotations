@@ -191,8 +191,8 @@ END COMMENT)
         applies to all types in tt(Args));
 
     itt(is_convertible<typename From, typename To>::value)
-       hi(is_convertible) to determine whether a type tt(From) may be
-        converted to a type tt(To) using a tt(static_cast);
+       hi(is_convertible) to determine whether a type tt(From) can be
+        implicitly converted to a type tt(To);
 
     itt(is_copy_assignable<typename Type>::value)
        hi(is_copy_assignable) to determine whether tt(Type) supports copy
